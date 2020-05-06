@@ -3,7 +3,7 @@
     <title>3DWalrus</title>
     <link href="https://3dwalrus.github.io/feed.xml" rel="self" />
     <link href="https://3dwalrus.github.io" />
-    <updated>2020-05-06T14:21:09+03:00</updated>
+    <updated>2020-05-06T14:25:45+03:00</updated>
     <author>
         <name>The Walrus</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://3dwalrus.github.io/hello.html"/>
         <id>https://3dwalrus.github.io/hello.html</id>
 
-        <updated>2020-05-06T14:04:50+03:00</updated>
+        <updated>2020-05-06T14:24:38+03:00</updated>
             <summary>
                 <![CDATA[
                      
@@ -36,10 +36,6 @@
     [5, 2, 4, 2, 0]
   ]
 };
-
-// Create a new line chart object where as first parameter we pass in a selector
-// that is resolving to our chart container element. The Second parameter
-// is the actual data object.
 new Chartist.Line('.ct-chart', data);
 </script>
 </p>
