@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>The Marvelous Walrus</title>
+    <title>3DWalrus</title>
     <link href="https://3dwalrus.github.io/feed.xml" rel="self" />
     <link href="https://3dwalrus.github.io" />
-    <updated>1970-01-01T03:00:00+03:00</updated>
+    <updated>2020-05-06T14:15:02+03:00</updated>
     <author>
         <name>The Walrus</name>
     </author>
     <id>https://3dwalrus.github.io</id>
 
+    <entry>
+        <title>Hello</title>
+        <author>
+            <name>The Walrus</name>
+        </author>
+        <link href="https://3dwalrus.github.io/hello.html"/>
+        <id>https://3dwalrus.github.io/hello.html</id>
+
+        <updated>2020-05-06T14:04:50+03:00</updated>
+            <summary>
+                <![CDATA[
+                     
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="ct-chart ct-perfect-fourth"> </div>
+<p>
+<script>
+  var data = {
+  // A labels array that can contain any sort of values
+  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+  // Our series array that contains series objects or in this case series data arrays
+  series: [
+    [5, 2, 4, 2, 0]
+  ]
+};
+
+// Create a new line chart object where as first parameter we pass in a selector
+// that is resolving to our chart container element. The Second parameter
+// is the actual data object.
+new Chartist.Line('.ct-chart', data);
+</script>
+</p>
+            ]]>
+        </content>
+    </entry>
 </feed>

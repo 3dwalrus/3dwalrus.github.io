@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "The Marvelous Walrus",
+    "title": "3DWalrus",
     "description": "",
     "home_page_url": "https://3dwalrus.github.io",
     "feed_url": "https://3dwalrus.github.io/feed.json",
@@ -9,5 +9,19 @@
         "name": "The Walrus"
     },
     "items": [
+        {
+            "id": "https://3dwalrus.github.io/hello.html",
+            "url": "https://3dwalrus.github.io/hello.html",
+            "title": "Hello",
+            "summary": " ",
+            "content_html": "<div class=\"ct-chart ct-perfect-fourth\"> </div>\n<p>\n<script>\n  var data = {\n  // A labels array that can contain any sort of values\n  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],\n  // Our series array that contains series objects or in this case series data arrays\n  series: [\n    [5, 2, 4, 2, 0]\n  ]\n};\n\n// Create a new line chart object where as first parameter we pass in a selector\n// that is resolving to our chart container element. The Second parameter\n// is the actual data object.\nnew Chartist.Line('.ct-chart', data);\n</script>\n</p>",
+            "author": {
+                "name": "The Walrus"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-05-06T13:48:46+03:00",
+            "date_modified": "2020-05-06T14:04:50+03:00"
+        }
     ]
 }
